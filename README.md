@@ -78,7 +78,7 @@ extern const unsigned char IMAGE_DATA[]; //152*296
    python image2ByteArray.py -i your_image.png -o imagedata.cpp -w 152 --height 296
    ```
 2. Copy both generated files (imagedata.cpp and imagedata.h) to your Arduino project
-3. Include the header in your main sketch:
+3. Check this header in your main sketch:
    ```cpp
    #include "imagedata.h"
    ```
